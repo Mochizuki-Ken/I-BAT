@@ -1,0 +1,34 @@
+.RAR_Main_div{
+    width: 60%;
+    height: 90%;
+    background-color: rgba(122, 145, 125, 0.364);
+    /* background-color: #ed7834f1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.RAR_Main_div .Div2{
+    width: 70%;
+    height: 80%;
+    background-color: rgba(112, 161, 122, 0.381);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+.RAR_Main_div .Div3{
+    width: 60%;
+    height: 60%;
+    background-color: rgba(73, 179, 94, 0.416);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+.RAR_Main_div label{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}

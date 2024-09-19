@@ -1,0 +1,33 @@
+.Home_Main_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Home_Main_div .Content_div{
+    width: 100%;
+    height: 94%;
+}
+.Home_Main_div .NavBar_div {
+    width: 100%;
+    height: 6%;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+.Home_Main_div .NavBar_div .Div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Home_Main_div .NavBar_div .Div .icon{
+    flex: 1;
+    font-size: x-large;
+    color: rgb(39, 39, 39);
+}

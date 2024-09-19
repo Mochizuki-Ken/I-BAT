@@ -1,0 +1,89 @@
+.Mission_Filter_btn_L_Main_div{
+    /* transition: 1s; */
+    background-image: url('./../Media/Mission01.jpg');
+    width: 90vw;
+    height: 100px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+    background-size: cover;
+    opacity: 0.85;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: flex-start;
+    
+
+}
+
+
+.Mission_Filter_btn_L_Main_div label{
+    /* transition: 1s; */
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+    width: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    opacity: 1;
+    font-weight: 300;
+}
+.Mission_Filter_btn_R_Main_div{
+    /* transition: 1s; */
+    background-image: url('./../Media/Mission01.jpg');
+    width: 43vw;
+    height: 43vw;
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+    background-size: cover;
+    opacity: 0.85;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: flex-start;
+    
+
+}
+.HOT{
+    background-image: url('./../Media/HOT.jpg');
+    background-size: cover;
+    background-position: 100%;
+}
+.ALL{
+    background-image: url('./../Media/ALL.png');
+    background-size: cover;
+    background-position: 100%;
+}
+.Tutorial{
+    background-image: url('./../Media/Tutorial.jpg');
+    background-size: cover;
+    background-position: 100%;
+}
+.Stability{
+    background-image: url('./../Media/Stability.jpg');
+    background-size: cover;
+    background-position: 50%;
+}
+.Reaction{
+    
+}
+.Accuracy{
+    background-image: url('./../Media/Accuracy.jpg');
+    background-size: cover;
+    background-position: 0%;
+}
+.Fitness{
+    background-image: url('./../Media/Fitness.jpg');
+    background-size: cover;
+    background-position:30%;
+}
+
+
+.Mission_Filter_btn_R_Main_div label{
+    /* transition: 1s; */
+    color: rgb(249, 249, 249);
+    font-size: 35px;
+    width: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    opacity: 1;
+    font-weight: 300;
+}

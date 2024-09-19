@@ -1,0 +1,71 @@
+.Mission_Top_Bar_Main_div{
+
+    z-index: 20;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(67, 67, 67, 0);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 6%; */
+}
+.Mission_Top_Bar_Main_div label{
+    width: 23%;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.851);
+    /* align-items: center; */
+    text-align: center;
+}
+.Mission_Top_Bar_Main_div .o2{
+    width: 30%;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(252, 252, 252);
+    /* align-items: center; */
+    text-align: center;
+}
+@keyframes ADD{
+    0%{font-size: 50px; color: rgb(252, 252, 252);} 
+    50%{font-size: 52px; color: rgb(128, 247, 221);}
+    100%{font-size: 50px; color: rgb(252, 252, 252);}
+}
+@keyframes ADD2{
+    0%{font-size: 50px; color: rgb(252, 252, 252);} 
+    50%{font-size: 52px; color: rgb(128, 247, 221);}
+    100%{font-size: 50px; color: rgb(252, 252, 252);}
+}
+.Mission_Top_Bar_Main_div .o1{
+    width: 23%;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(252, 252, 252);
+    /* align-items: center; */
+    text-align: center;
+    animation: ADD 0.8s ;
+}
+.Mission_Top_Bar_Main_div .o11{
+    width: 23%;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(252, 252, 252);
+    /* align-items: center; */
+    text-align: center;
+    animation: ADD2 0.8s ;
+}
+.Mission_Top_Bar_Main_div .DIV{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(79, 79, 79, 0.462);
+    border-radius: 20px;
+    /* gap: 5%; */
+}
+/* SSL_CRT_FILE=C:/Windows/System32/example.com+5.pem SSL_KEY_FILE=C:/Windows/System32/example.com+5-key.pem */

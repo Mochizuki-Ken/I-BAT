@@ -1,0 +1,28 @@
+.Start_Intro_Main_div{
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(244, 244, 244, 0.732);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Start_Intro_Main_div .Intro_Body_Main_div{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Start_Intro_Main_div .Intro_Body_Main_div button{
+    border: 0;
+    font-size: 180px;
+    font-weight: 600;
+    color: rgba(33, 169, 232, 0.79);
+    background-color: unset;
+}
